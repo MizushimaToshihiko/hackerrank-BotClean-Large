@@ -27,7 +27,7 @@ vector<vector<int>> bfs(int height,int width,vector<string>grid,pair<int,int> s)
     queue<pair<int,int>> Q;
     Q.push(s);
 
-    // 移動4方向
+    // move to four directions.
     int dx[]={1, 0, -1, 0}; // {1, 0, -1, 0, 1, -1, 1, -1}
     int dy[]={0, 1, 0, -1}; // [0, 1,  0, -1, 1, -1, -1,  1]
 
